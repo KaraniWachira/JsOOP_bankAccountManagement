@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Account Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="header">
+            <span>My</span>Bank</h1>
+    </header>
+
+    <div class="main-container">
+
+        <!-- Balance and Transaction history-->
+
+        <div class="service-section">
+
+            <div class="cards">
+
+                <div class="deposit-card">
+                    <h3>Deposit</h3> 
+                    <h4>KSh<span>00</span></h4>
+                </div>
+
+                 <div class="deposit-withdraw">
+                    <h3>Withdraw</h3>
+                    <h4>KSh<span id="withdraw-total"></span></h4>
+                </div>
+
+                <div class="balance-card">
+                    <h3>Balance</h3>
+                    <h4>KSh<span id="balance-total">00</span></h4>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Deposit and Withdraw  -->
+
+        <div class="deposit-withdrawal">
+            <div class="cards">
+                <div>
+                    <h3>Deposit Money</h3>
+
+                    <div class="deposit-textbox">
+                        <input id="deposit-input" type="text" name="" id="" placeholder="Enter Deposit Amount">
+
+                        <button id="deposit-button">Deposit</button>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3 class="withdrawal-card">Withdraw Money</h3>
+
+                    <div class="withdraw-txtbox">
+                        <input id="withdraw-input" type="text" name="" id="" placeholder="Enter Withdraw Amount">
+
+                        <button id="withdraw-button">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
